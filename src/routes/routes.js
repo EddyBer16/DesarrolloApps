@@ -9,8 +9,8 @@ router.get('/webDevelopment', (req, res) => {
     res.render('pages/webDevelopment');
 });
 
-router.get('/img/bg1.jpg', (req,res) => {
-    res.send('<img src="../public/img/bg1.jpg"');
+router.get('/mobileDevelopment', (req,res) => {
+    res.render('pages/mobileDevelopment');
 });
 
 module.exports = router;
