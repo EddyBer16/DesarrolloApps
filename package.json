@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "npm run dev",
+    "run": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
