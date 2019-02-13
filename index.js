@@ -14,7 +14,7 @@ app.set('port', process.env.PORT || 3000);
 app.use(morgan('dev'));
 
 // ROUTES
-app.use('/', require('./src/routes'));
+app.use('/', require('./src/routes/routes'));
 
 // PORT LISTEN
 app.listen(app.get('port'), () => {
