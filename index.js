@@ -5,7 +5,7 @@ const morgan = require('morgan');
 
 // SETTINGS
 const app = express();
-app.set('views', path.join(__dirname, 'src/views'));
+app.set('views', path.join(__dirname + '/src/views'));
 app.engine('ejs', engine);
 app.set('view engine', 'ejs');
 app.set('port', process.env.PORT || 3000);
@@ -20,3 +20,5 @@ app.use('/', require('./src/routes/routes'));
 app.listen(app.get('port'), () => {
     console.log('Server listenig on port',app.get('port'));
 });
+
+console.log(__dirname);
