@@ -1,0 +1,109 @@
+header
+{
+    z-index: 9999;
+}
+#containerMain
+{
+    margin-top: 63px;
+}
+#containerMain #bg img
+{
+    width:100%;
+    height:100%;
+    position: relative;
+    z-index: 1;
+    filter:brightness(65%);
+}
+#containerMain #textIn
+{
+    text-align:center;
+    font-size: 1em;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    width:100%;
+    top:25%;
+    left:50%;
+    transition:1s;
+    animation: animText 6s infinite;
+    text-shadow: 0 0 black;
+    transform:translate(-50%,-50%);
+    z-index: 999;
+}
+@keyframes animText
+{
+    0%
+    {
+        /* letter-spacing: 3px; */
+        text-shadow: 4px 0 black;
+    }
+    25%
+    {
+        /* letter-spacing: 0px; */
+        text-shadow: -4px 0 black;
+    }
+    50%
+    {
+        /* letter-spacing: 3px; */
+        text-shadow: 4px 0 black;
+    }
+    75%
+    {
+        /* letter-spacing: 0px; */
+        text-shadow: -4px 0 black;
+    }
+    100%
+    {
+        /* letter-spacing: 3px; */
+        text-shadow: 4px 0 black;
+    }
+}
+#containerMain #textIn span
+{
+    background: white;
+    width:100%;
+    height: 10px;
+    position: relative;
+    bottom:0;
+    left:0;
+    border-radius:10px;
+    display:block;
+}
+#containerMain #textIn span:before
+{
+    content: '';
+    position: relative;
+    display: flex;
+    background: #2e7371;
+    width:95px;
+    height:5.5px;
+    top:50%;
+    left:14%;
+    border-radius: 10px;
+    animation: animBefore 6s infinite;
+    transform: translate(-50%,-50%);
+}
+@keyframes animBefore
+{
+    0%
+    {
+        left:14%;
+    }
+    25%
+    {
+        left:86%;
+    }
+    50%
+    {
+        left:14%;
+    }
+    75%
+    {
+        left:86%;
+    }
+    100%
+    {
+        left:14%;
+    }
+}

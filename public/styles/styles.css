@@ -1,0 +1,231 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+li{
+	list-style-type: none;
+}
+/************************************************************/
+::-webkit-scrollbar{
+	background: white;
+	width: 14px;
+}
+::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 10px #00000070;
+}
+::-webkit-scrollbar-thumb{
+	background: #2e7371;
+	box-shadow: inset 0 0 10px #00000070;
+}
+
+/************************************************************/
+header{
+	margin:0;
+	padding: 0;
+	position: fixed;
+	top:0;
+	width:100%;
+}
+#logo {
+	margin:0;
+	padding:0;
+	background: #2e7371;
+	position: fixed;
+	top:0;
+	width: 100%;
+	z-index: 9999999;
+/*	border-bottom:2px solid #fff;*/
+}
+#logo .logo_icon{
+	top:7px;
+	left:10px;
+	font-size:48px;
+	position: absolute;
+	color:white;
+}
+#logo h1,#logo h2{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto',sans-serif;
+}
+#logo h1 a,#logo h2 a{
+	cursor: pointer;
+}
+#logo h1{
+	padding:2px 0 7px 60px;
+	width:50%;
+	line-height: 25px;
+	text-align: left;
+}
+#logo h1 a{
+	font-weight: 700;
+	font-size: .8em;
+	text-transform: capitalize;
+	color:white
+}
+#logo h2 a{
+	line-height: 1px;
+	padding:5px 0 20px 5px;
+	color:white;
+	font-weight: 400;
+	display: none;
+	font-size: .7em;
+}
+
+/************************************************************/
+nav{
+	width: 0%;
+	margin-top: 63px;
+	background:#225351;
+	filter:opacity(97.5%);
+	text-align: center;
+	position: fixed;
+	overflow: hidden;
+	height: 0%;
+	right: 0;
+	transition:.5s;
+	z-index: 999999999;
+}
+.nav_toggle{
+	width:100%;
+	height: 100%;
+}
+.nav_toggle a{
+	color: white;
+}
+nav li{
+	margin:0;
+	padding:5px 0;
+	transition: 1s ease;
+}
+nav a{
+	padding:0;
+	font-size: 1.5em;
+	font-family:'Archivo',sans-serif;
+	text-transform: uppercase;
+	color:#225351;
+	border:none;
+	transition: .25s ease-out;
+}
+nav ul li{
+	padding:12.5px 0;
+}
+nav ul li{
+	border-bottom:1px solid #2e7371;
+}
+nav ul li:last-child{
+	border:none;
+}
+nav li:hover{
+	background: white;
+}
+nav li:hover > a{
+	color:#2c3e50;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.logo-scroll{
+	filter:opacity(100%);
+	border:none;
+}
+/************************************************************/
+#img_in{
+	margin:0;
+	margin-top: 63px;
+	padding:5vh 0;
+	width:100%;
+	height: 25em;
+	background-color: #2c3e50;
+	text-align: center;
+}
+#img_in p{
+	margin-top:0;
+	font-size: 4em;
+	font-family: 'Advent Pro',sans-serif;
+	font-weight: 700;
+	text-shadow: 2px 1px 4px black;
+	width:100%;
+	text-align: center;
+	color:white;
+	text-transform: uppercase;
+}
+#img_in #desc{
+	text-transform: none;
+	margin-top: 2vh;
+	margin-bottom: 0;
+	font-size: 2.5em;
+	font-weight: 500;
+}
+/************************************************************/
+#caracWeb{
+	margin-top: 50px;
+	padding: 45px;
+	background-color: #1abc9c;
+	text-align: center;
+}
+#caracWeb a{
+	color:white;
+}
+#desMob a h4,#desWeb a h4,#desDes a h4{
+	font-family: 'Archivo',sans-serif;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	border:1px solid white;
+	padding:5px;
+	transition: .5s;
+}
+#desMob a h4:hover,#desWeb a h4:hover,#desDes a h4:hover{
+	color:#1abc9c;
+	background: white;
+	text-shadow: none;
+	transition: 1s;
+	transform: rotateX(360deg);
+}
+#caracWeb img{
+	margin: 15px 0;
+	width:100%;
+}
+/************************************************************/
+/*footer*/
+#container{
+	width: 100%;
+	margin-top:5px;
+	display: inline-flex;
+	background-color: #3c6382;
+
+	align-content: center;
+	justify-content: center;
+}
+#container #col1 ul{
+	width:100%;
+}
+#container #col1 ul li{
+	width: 100%;
+	text-align: center;
+	margin: 2.5em 0;
+}
+#container #col1 ul li a{
+	color:white;
+	text-transform: uppercase;
+	font-family: 'Advent Pro',sans-serif;
+	font-size: 1.5em;
+}
+#container #col1 ul li:last-child{
+	color:white;
+	text-transform: uppercase;
+	font-family: 'Advent Pro',sans-serif;
+	font-size: 1em;
+}
+#container #col1 ul li:last-child{
+	margin-bottom: 1.5em;
+}
+#container #col1 ul li a:hover{
+	border-bottom: 1px solid white;
+}
+#container #col1 ul li :last-child{
+	border: none;
+}

@@ -1,0 +1,81 @@
+#hidden {
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+/*	transform: translate(-50%,-50%);*/
+	height: 100%;
+	width: 100%;
+	z-index: 999999999;
+
+	align-content: center;
+	justify-content: center;
+}
+#hidden span{
+	border-radius: 5px;
+	position: absolute;
+	width: 10px;
+	height: 75px;
+	background-color: white;
+	top:50%;
+}
+
+#hidden span:nth-child(1){
+
+	left: 40%;
+	transform: translate(-50%,-50%);
+	animation: anim 1s infinite .1s;
+}
+
+#hidden span:nth-child(2) {
+
+	left: 42.5%;
+	transform: translate(-50%,-50%);
+	animation: anim 1s infinite .2s;
+}
+#hidden span:nth-child(3) {
+
+	left: 45%;
+	transform: translate(-50%,-50%);
+	animation: anim 1s infinite .3s;
+}
+#hidden span:nth-child(4) {
+
+	left: 47.5%;
+	transform: translate(-50%,-50%);
+	animation: anim 1s infinite .4s;
+}
+#hidden span:nth-child(5) {
+
+	left: 50%;
+	transform: translate(-50%,-50%);
+	animation: anim 1s infinite .5s;
+}
+#hidden span:nth-child(6) {
+
+	left: 52.5%;
+	transform: translate(-50%,-50%);
+	animation: anim 1s infinite .6s;
+}
+#hidden span:nth-child(7) {
+
+	left: 55%;
+	transform: translate(-50%,-50%);
+	animation: anim 1s infinite .7s;
+}
+#hidden span:nth-child(8) {
+
+	left: 57.5%;
+	transform: translate(-50%,-50%);
+	animation: anim 1s infinite .8s;
+}
+
+@keyframes anim{
+	0%{
+		height: 75px;
+	}50%{
+		height: 0px;
+	}100%{
+		height: 75px;
+	}
+}

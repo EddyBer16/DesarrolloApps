@@ -10,6 +10,8 @@ app.engine('ejs', engine);
 app.set('view engine', 'ejs');
 app.set('port', process.env.PORT || 3000);
 
+app.use(express.static(__dirname + '/public'));
+
 // MIDDLEWARES
 app.use(morgan('dev'));
 
@@ -20,3 +22,5 @@ app.use('/', require('./src/routes/routes'));
 app.listen(app.get('port'), () => {
     console.log('Server listenig on port',app.get('port'));
 });
+
+console.log(__dirname + '/public')

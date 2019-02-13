@@ -4,51 +4,35 @@
     <% include partials/head %>
 </head>
 <body>
+
     <% include partials/navbar %>
-
-    <img class="img-fluid" style="max-width: 100%; height: auto; filter: brightness(50%)" src="https://picjumbo.com/wp-content/uploads/night-owl-man-working-on-computer-at-night-2210x1473.jpg">
-
-    <div class="container position-absolute" style="top: 55%;left:50%;transform: translate(-50%,-50%)">
-        <div class="row">
-            <div class="col-sm">
-                <div class="text-center">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://s3.amazonaws.com/sitebuilderreport-assets/stock_photos/files/000/039/285/small/HTML.-Web-development-concept-7354-600x400.jpg?1508074258" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Desarrollo Web</h5>
-                            <p class="card-text">El desarrollo web es la creación de páginas web tanto del lado del cliente (<a href="/blog/webDevelopment/frontend">front-end</a>), como del lado del servidor (<a href="/blog/webDevelopment/backend">back-end</a>) lo que da como resultado una página web fullstack.</p>
-                            <a href="/webDevelopment" class="btn btn-primary">Aprender más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="text-center">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://s3.amazonaws.com/sitebuilderreport-assets/stock_photos/files/000/040/714/small/facebook-mobile_373x_2x.jpg?1513194092" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Desarrollo Móvil</h5>
-                            <p class="card-text">El desarrollo de aplicaciones móviles requiere el uso de entornos de desarrollo integrados, como <a href="/blog/AndroidStudio">Android Studio</a>, para desarrollar aplicaciones que funcionen en los sistemas operativos iOS o Android.</p>
-                            <a href="/mobileDevelopment" class="btn btn-primary">Aprender más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="text-center">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://s3.amazonaws.com/sitebuilderreport-assets/stock_photos/files/000/013/052/small/SplitShire-0214-768x506.jpg?1453840267" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Desarrollo De Apps de Escritorio</h5>
-                            <p class="card-text">Con el desarrollo de aplicaciones de escritorio se pueden realizar aplicaciones para un PC o en una laptop utilizando distintos lenguajes, como serían Java, Python o con frameworks de javascript</p>
-                            <a href="/desktopDevelopment" class="btn btn-primary">Aprender más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    
+    <div id="img_in">
+        <p>Bienvenido</p>
+        <p id="desc">El desarrollo de aplicaciones es un mundo lleno de cambios y de lógica. Sirve como ejercicio para tu cerebro y a la vez le hace bien a tu economía si trabajas en esto.</p>
+    </div>
+    <div id="caracWeb">
+        <div id="desMob">
+            <a href="" title="Próximamente">
+                <h4>Desarrollo de Aplicaciones Móviles</h4>
+                <img src="imgs/apps_mobile-01.jpg" alt="Imagen sobre desarrollo de aplicaciones móviles">
+            </a>
+        </div>
+        <div id="desWeb">
+            <a href="">
+                <h4>Desarrollo Web</h4>
+                <img src="imgs/web-development.jpg" alt="Imagen sobre desarrollo web">
+            </a>
+        </div>
+        <div id="desDes">
+            <a href="" title="Próximamente">
+                <h4>Desarrollo de Aplicaciones de Escritorio</h4>
+                <img src="imgs/apps_desktop-01.jpg" alt="Imagen sobre desarrollo de aplicaciones de escritorio">
+            </a>
         </div>
     </div>
-
+        
     <% include partials/footer %>
+
 </body>
 </html>

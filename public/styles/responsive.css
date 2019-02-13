@@ -1,0 +1,379 @@
+@media all and (min-width:320px) {
+	#resActive
+	{
+		background: white;
+	}
+	#resActive a
+	{
+		color: #2c3e50;
+		font-weight: 700;
+		letter-spacing: 2.5px;
+	}
+  #img_in{
+    margin-top:63px;
+  }
+  #img_in p{
+    font-size: 3.75em;
+  }
+  #img_in #desc{
+    font-size: 2em;
+  }
+  nav{
+    margin-top:63px;
+  }
+}
+@media all and (min-width:361px) {
+  #logo h1{
+    padding:2px 0 5px 47px;
+    width:75%;
+    left:0;
+    letter-spacing: 0px;
+  }
+  #logo h1 a{
+    font-size: .65em;
+  }
+  #logo h2 a{
+    padding:0 0 7px 47px;
+  	line-height: 25px;
+  	text-align: left;
+    display: block;
+  }
+  #logo .logo_icon{
+    top:12px;
+  	left:7px;
+  	font-size:40px;
+  }
+}
+@media all and (min-width:375px) {
+  #img_in{
+    margin-top:67px;
+  }
+  nav{
+    margin-top:67px;
+  }
+  #img_in #desc{
+    font-size: 2.125em;
+  }
+}
+@media all and (min-width:425px) {
+  #img_in{
+      padding-bottom: 25px;
+  }
+  #img_in p{
+    margin-top: 0;
+    letter-spacing: 5px;
+  }
+  #img_in #desc{
+    letter-spacing: normal;
+    font-size: 2.4em;
+  }
+}
+@media all and (min-width:513px) {
+  #img_in p{
+    margin:10px 0;
+      font-size: 5em;
+  }
+}
+@media all and (min-width:637px) {
+    #img_in{
+        height: 22.5em;
+    }
+  #img_in p{
+    margin-top: 8.25px;
+      margin-bottom: 10px;
+    font-size: 6em;
+  }
+    #img_in #desc{
+        margin:0 0;
+        font-size: 2.6em;
+    }
+}/*End of 637px*/
+
+@media all and (min-width:694px){
+    #img_in{
+        padding-top: 0;
+    }
+    #img_in #desc{
+        font-size:2.65em;
+    }
+}
+
+@media all and (min-width:768px) {
+
+    #img_in{
+        height: 30em;
+    }
+  #img_in p{
+    margin:0;
+  }
+  #img_in #desc{
+    font-size: 3em;
+  }
+    #caracWeb{
+        display: grid;
+    }
+    #caracWeb div{
+        width: 80%;
+    }
+    #caracWeb div h4{
+        width: 41.25vw;
+        height: 3.5em;
+        font-size: 1.5em;
+    }
+    #caracWeb #desMob h4{
+        line-height: 1.5em;
+    }
+    #caracWeb #desWeb h4{
+        line-height: 3em;
+    }
+    #caracWeb div img{
+        height: 20em;
+        width: 43vw;
+    }
+    #caracWeb #desMob{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #caracWeb #desWeb{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #caracWeb #desMob{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+/*    footer*/
+    #container ul li{
+        display: inline;
+    }
+    #container ul li:last-child{
+        display: block;
+    }
+    #container ul{
+        padding: 50px 5px 20px;
+    }
+    #container ul li a{
+        margin: 0 15px;
+    }
+    #container #col1 ul li a{
+        font-size: 2em;
+    }
+    #container #col1 ul li:nth-child(2) a{
+        margin-left: 0;
+    }
+}/*End of 768px*/
+
+@media all and (min-width: 798px){
+    #img_in #desc{
+        font-size: 3.2em;
+    }
+}
+
+@media all and (min-width:1024px) {	
+	.contenedor_icon_menu{
+		top:-90px;
+	}
+	header{
+		filter:opacity(100%);
+		border:none;
+		margin-bottom:0;
+	}
+	nav{
+		position: relative;
+		width: 100%;
+		height: 63px;
+		filter:opacity(100%);
+		background: #225351;
+	}
+	nav ul li a{
+		position: relative;
+		color:white;
+		font-size: 1em;
+		z-index: 99;
+	}
+	nav ul li{
+		float: left;
+		width: 16.6%;
+		height: 48px;
+		padding-top: 14px;
+		padding-bottom: 0;
+		margin:0;
+		border:none;
+		overflow: hidden;
+	}
+	nav li:hover{
+		background: transparent;
+/*		border-bottom: 1px solid white;*/
+	}
+	nav li a{
+		transition: color .5s .5s,font-weight .5s .5s,letter-spacing .5s .5s;
+	}
+	nav li:nth-child(1),
+	nav li:nth-child(2),
+	nav li:nth-child(4),
+	nav li:nth-child(6){
+		padding-top:22px;
+	}
+	nav li:hover a{
+		color:#2c3e50;
+/*		font-size: 1.06125em;*/
+		font-weight: 700;
+		letter-spacing: .5px;
+	}
+	nav li:nth-child(5):hover a{
+		letter-spacing: .25px;
+	}
+	
+	nav li:nth-child(1):hover .border1{
+		width: 16.6%;
+		height:63px;
+		transform: rotateZ(0) rotateX(0);
+		z-index: 9;
+	}	
+	nav li:nth-child(2):hover .border2{
+		width:16.6%;
+		height:63px;
+		transform: rotateZ(0) rotateX(0);
+		z-index: 9;
+	}
+	nav li:nth-child(3):hover .border3{
+		width: 16.6%;
+		height:63px;
+		transform: rotateZ(0) rotateX(0);
+		z-index: 9;
+	}
+	nav li:nth-child(4):hover .border4{
+		width: 16.6%;
+		height:63px;
+		transform: rotateZ(0) rotateX(0);
+		z-index: 9;
+	}
+	nav li:nth-child(5):hover .border5{
+		width: 16.6%;
+		height:63px;
+		transform: rotateZ(0) rotateX(0);
+		z-index: 9;
+	}
+	nav li:nth-child(6):hover .border6{
+		width: 16.6%;
+		height:63px;
+		transform: rotateZ(0) rotateX(0);
+		z-index: 9;
+	}
+	.border{
+		transition:.5s,height .5s .5s;
+		position: absolute;
+		height:2px;
+		background-color: white;
+		width:0;
+		z-index: 1;
+		transform: rotateY(90deg);
+		bottom:0;
+		border-left:2px solid #225351;
+		border-right:2px solid #225351;
+	}
+	.border1{
+		left:0;
+	}
+	.border2{
+		left:16.6%;
+	}
+	.border3{
+		left:33.2%;
+	}
+	.border4{
+		left:49.8%;
+	}
+	.border5{
+		left:66.4%;
+	}
+	.border6{
+		left:83%;
+	}
+	
+	.active{
+		width: 16.6%;
+		height:63px;
+		transform: rotateZ(0) rotateX(0);
+		border:none;
+	}
+	.active + a{
+		color:#2c3e50;
+		font-weight: 700;
+		letter-spacing: .25px;
+	}
+	
+	#mainWeb
+	{
+		margin-top: 130px; 
+		padding-bottom: 50px;
+	}
+  #img_in{
+    margin-top:130px;
+    padding: 6vh 0;
+  }
+  #img_in #desc{
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 1.5em;
+      padding: 0;
+      font-size: 3em;
+  }
+	#img_in{
+		margin-top:131px;
+	}
+    #img_in p{
+        font-size: 7em;
+    }
+    #caracWeb{
+        padding: 45px 5px;
+        padding-left: 15px;
+        grid-column-gap: 5px;
+    }
+    #caracWeb div h4{
+        width: 30vw;
+        height: 3.5em;
+        font-size: 1.55em;
+    }
+    #caracWeb #desMob h4{
+        line-height: 1.5em;
+    }
+    #caracWeb #desWeb h4{
+        line-height: 3em;
+    }
+    #caracWeb div img{
+        height: 20em;
+        width: 31vw;
+    }
+    #caracWeb #desMob{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #caracWeb #desWeb{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #caracWeb #desDes{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+@media all and (min-width:1062px){
+    #img_in #desc{
+        line-height: 1.15em;
+        font-size: 4em;
+    }
+}

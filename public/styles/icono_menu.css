@@ -1,0 +1,48 @@
+.contenedor_icon_menu{
+	position: absolute;
+	top:.75em;
+	right: 1em;
+	width:40px;
+	height: 40px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+.icono_menu{
+	height: 15%;
+	width:100%;
+	background-color: black;
+	100%;
+}
+.icono_menu:after,
+.icono_menu:before,
+.icono_menu{
+	position: absolute;
+	width:100%;
+	content: '';
+	background-color: white;
+	transition:.5s;
+	border-radius:5px;
+}
+.icono_menu:after{
+	top:10px;
+	height: 100%;
+}
+.icono_menu:before{
+	top:-10px;
+	height: 100%;
+}
+.cruz{
+	/*transition: 1s;*/
+	transform: rotateZ(45deg);
+}
+.cruz:before{
+	transform: rotateZ(90deg);
+	top:0;
+}
+.cruz:after{
+	top:0;
+}
