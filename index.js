@@ -22,5 +22,3 @@ app.use('/', require('./src/routes/routes'));
 app.listen(app.get('port'), () => {
     console.log('Server listenig on port',app.get('port'));
 });
-
-console.log(__dirname + '/public')

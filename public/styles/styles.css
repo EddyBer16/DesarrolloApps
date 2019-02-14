@@ -183,7 +183,7 @@ nav li:hover > a{
 	background: white;
 	text-shadow: none;
 	transition: 1s;
-	transform: rotateX(360deg);
+	/* transform: rotateX(360deg); */
 }
 #caracWeb img{
 	margin: 15px 0;

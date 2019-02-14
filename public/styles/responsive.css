@@ -298,18 +298,6 @@
 		left:83%;
 	}
 	
-	.active{
-		width: 16.6%;
-		height:63px;
-		transform: rotateZ(0) rotateX(0);
-		border:none;
-	}
-	.active + a{
-		color:#2c3e50;
-		font-weight: 700;
-		letter-spacing: .25px;
-	}
-	
 	#mainWeb
 	{
 		margin-top: 130px; 

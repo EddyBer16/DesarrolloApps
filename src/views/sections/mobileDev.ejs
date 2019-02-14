@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+    <script>
+        $('document').ready(function(){
+            $('nav ul li:nth-child(3)').toggleClass('active');
+            $('nav ul li:nth-child(3) span').toggleClass('activeBorder');
+        });
+    </script>
+</head>
+<body>
+    <% include ../partials/navbar %>
+
+    <div id="img_in">
+        <p>Desarrollo Móvil</p>
+        <p id="desc">El desarrollo de aplicaciones móviles es el conjunto de procesos y procedimientos en la escritura de software para pequeños dispositivos inalámbricos, como teléfonos inteligentes o tabletas.</p>
+    </div>
+    <div id="caracWeb">
+        
+    </div>
+
+    <% include ../partials/footer %>
+</body>
+</html>

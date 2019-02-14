@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
     <% include partials/head %>
+    <script>
+        $('document').ready(function(){
+            $('nav ul li:nth-child(1)').toggleClass('active');
+            $('nav ul li:nth-child(1) span').toggleClass('activeBorder');
+        });
+    </script>
 </head>
 <body>
 
@@ -13,7 +19,7 @@
     </div>
     <div id="caracWeb">
         <div id="desMob">
-            <a href="" title="Próximamente">
+            <a href="/sections/mobileDev" title="Desarrollo Móvil">
                 <h4>Desarrollo de Aplicaciones Móviles</h4>
                 <img src="imgs/apps_mobile-01.jpg" alt="Imagen sobre desarrollo de aplicaciones móviles">
             </a>
