@@ -2,7 +2,7 @@
 //		preloader
 //
 $(function(){
-    $('body').hide().slideDown(1500);
+    $('#img_in').hide().fadeIn(1500);
 })
 $(document).ready(() => {
     $(document).on("ready",function(){
