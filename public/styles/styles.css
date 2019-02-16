@@ -188,6 +188,7 @@ nav li:hover > a{
 	border:1px solid white;
 	padding:5px;
 	transition: .5s;
+	border-radius: 10px;
 }
 #desMob a h4:hover,#desWeb a h4:hover,#desDes a h4:hover{
 	color:#1abc9c;
