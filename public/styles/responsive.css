@@ -121,13 +121,10 @@
         font-size: 1.5em;
     }
     #caracWeb #desMob h4{
-        line-height: 3em;
+        line-height: 1.5em;
     }
     #caracWeb #desWeb h4{
         line-height: 3em;
-    }
-    #caracWeb #desDes h4{
-      line-height: 3em;
     }
     #caracWeb div img{
         height: 20em;
@@ -334,7 +331,7 @@
         font-size: 1.55em;
     }
     #caracWeb #desMob h4{
-        line-height: 3em;
+        line-height: 1.5em;
     }
     #caracWeb #desWeb h4{
         line-height: 3em;
