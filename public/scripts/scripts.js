@@ -3,14 +3,10 @@
 //
 $(function(){
     $('#img_in').hide().fadeIn(1500);
-})
-$(document).ready(() => {
-    $(document).on("ready",function(){
-        $(".contenedor_icon_menu").on("click",function(){
-            $(".icono_menu").toggleClass("cruz");
-        });
+    $(".contenedor_icon_menu").on("click",function(){
+        $(".icono_menu").toggleClass("cruz");
     });
-});
+})
 
 $("document").ready(function(){
     
