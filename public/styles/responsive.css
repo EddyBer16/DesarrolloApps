@@ -170,12 +170,16 @@
     }
 }/*End of 768px*/
 
-@media all and (min-width: 798px){
+@media all and (max-width: 798px){
     #img_in #desc{
         font-size: 3.2em;
     }
 }
-
+@media all and (max-width: 1024px){
+  .active{
+      background: white;
+  }
+}
 @media all and (min-width:1024px) {	
 	.contenedor_icon_menu{
 		top:-90px;

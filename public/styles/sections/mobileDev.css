@@ -1,13 +1,3 @@
-.active{
-    background: white;
-}
-
-.activeBorder{
-    width: 16.6%;
-    height:63px;
-    transform: rotateZ(0) rotateX(0);
-    border:none;
-}
 .activeBorder + a{
     color:#2c3e50;
     font-weight: 700;
