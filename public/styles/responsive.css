@@ -76,7 +76,7 @@
 }
 @media all and (min-width:637px) {
     #img_in{
-        height: 22.5em;
+        height: 75vh;
     }
   #img_in p{
     margin-top: 8.25px;
@@ -97,7 +97,11 @@
         font-size:2.65em;
     }
 }
-
+@media all and (max-width: 768px){
+  #caracWeb i{
+    margin-left:0;
+  }
+}
 @media all and (min-width:768px) {
 
     #img_in{
