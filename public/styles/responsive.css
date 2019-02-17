@@ -22,6 +22,11 @@
     margin-top:63px;
   }
 }
+@media all and (max-width:357px){
+  #img_in{
+    height: 120vh;
+  }
+}
 @media all and (min-width:361px) {
   #logo h1{
     padding:2px 0 5px 47px;
@@ -68,6 +73,16 @@
     font-size: 2.4em;
   }
 }
+@media all and (min-width:484px){
+  #img_in{
+    height:100vh;
+  }
+}
+@media all and (min-width:484px){
+  #img_in{
+    height:100vh;
+  }
+}
 @media all and (min-width:513px) {
   #img_in p{
     margin:10px 0;
@@ -75,9 +90,9 @@
   }
 }
 @media all and (min-width:637px) {
-    #img_in{
+    /* #img_in{
         height: 75vh;
-    }
+    } */
   #img_in p{
     margin-top: 8.25px;
       margin-bottom: 10px;
