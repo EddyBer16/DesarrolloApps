@@ -5,12 +5,8 @@ router.get('/', (req, res) => {
     res.render('index', {title: 'Inicio'});
 });
 
-router.get('/webDevelopment', (req, res) => {
-    res.render('pages/webDevelopment');
-});
-
-router.get('/mobileDevelopment', (req,res) => {
-    res.render('pages/mobileDevelopment');
+router.get('/sections/webDev', (req,res) => {
+    res.render('sections/webDev', {title: 'Secciones | Desarrollo Web'});
 });
 
 router.get('/sections/mobileDev', (req,res) => {

@@ -16,8 +16,14 @@
     font-size: 10em;
 }
 
-@media all and (min-width:768px){
-    #caracWeb i{
-        margin-left: 60px;
-    }
+#caracWeb #desMob i{
+    color:#5DAB24;
+}
+
+#caracWeb #desWeb i{
+    color:black;
+}
+
+#caracWeb #desDes i{
+    color:#1D77D2;
 }

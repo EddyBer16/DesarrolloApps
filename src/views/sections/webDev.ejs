@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="/styles/sections/webDev.css">
+    <script>
+        $('document').ready(function(){
+            $('nav ul li:nth-child(4)').toggleClass('active');
+            $('nav ul li:nth-child(4) span').toggleClass('activeBorder');
+        });
+    </script>
+    <style>
+        .activeBorder{
+            width: 16.6%;
+            height:63px;
+            transform: rotateZ(0) rotateX(0);
+            border:none;
+        }
+    </style>
+</head>
+<body>
+    <% include ../partials/navbar %>
+
+    <div id="img_in">
+        <p>Desarrollo Web</p>
+        <p id="desc">En el desarrollo web se hace uso de software del lado del servidor y del cliente junto con procesos de base de datos con el uso de un navegador web.</p>
+    </div>
+    <div id="caracWeb">
+        <div id="desMob">
+            <a href="">
+                <h4>HTML</h4>
+                <i class="fab fa-html5"></i>
+            </a>
+        </div>
+        <div id="desWeb">
+            <a href="">
+                <h4>CSS</h4>
+                <i class="fab fa-css3-alt"></i>
+            </a>
+        </div>
+        <div id="desDes">
+            <a href="">
+                <h4>JavaScript</h4>
+                <i class="fab fa-js"></i>
+            </a>
+        </div>
+    </div>
+
+    <% include ../partials/footer %>
+</body>
+</html>
