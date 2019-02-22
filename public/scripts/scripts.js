@@ -2,7 +2,7 @@
 //		preloader
 //
 $(function(){
-    $('#img_in').hide().fadeIn(1500);
+    // $('#img_in').hide().fadeIn(1500);
     $(".contenedor_icon_menu").on("click",function(){
         $(".icono_menu").toggleClass("cruz");
     });

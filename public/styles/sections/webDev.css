@@ -9,3 +9,8 @@
 #caracWeb #desDes i{
     color:#F3D133;
 }
+
+#caracWeb #desMob  h4,
+#caracWeb #desDes h4 {
+    line-height: 3em;
+}

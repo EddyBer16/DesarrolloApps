@@ -198,6 +198,9 @@
   .active{
       background: white;
   }
+  #caracWeb #desDes h4{
+    padding: 0 1.5em;
+  }
 }
 @media all and (min-width:1024px) {	
 	.contenedor_icon_menu{
@@ -358,6 +361,9 @@
     }
     #caracWeb #desWeb h4{
         line-height: 3em;
+    }
+    #caracWeb #desDes h4{
+      line-height: 1.5em;
     }
     #caracWeb div img{
         height: 20em;
