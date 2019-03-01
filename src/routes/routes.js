@@ -13,4 +13,8 @@ router.get('/sections/mobileDev', (req,res) => {
     res.render('sections/mobileDev', {title: 'Secciones | Desarrollo Móvil'});
 });
 
+router.get('/sections/desktopDev', (req,res) => {
+    res.render('sections/desktopDev', {title: 'Secciones | Desarrollo de Apps de Escritorio'});
+});
+
 module.exports = router;

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="/styles/sections/desktopDev.css">
+    <script>
+        $('document').ready(function(){
+            $('nav ul li:nth-child(5)').toggleClass('active');
+            $('nav ul li:nth-child(5) span').toggleClass('activeBorder');
+        });
+    </script>
+    <style>
+        .activeBorder{
+            width: 16.6%;
+            height:63px;
+            transform: rotateZ(0) rotateX(0);
+            border:none;
+        }
+    </style>
+</head>
+<body>
+    <% include ../partials/navbar %>
+
+    <div id="img_in">
+        <p>Desarrollo de Apps de Escritorio</p>
+        <p id="desc">Las apps de escritorio usan recursos de la PC cliente, así tienen mayor rendimiento</p>
+    </div>
+    <div id="caracWeb">
+        <div id="desMob">
+            <a href="">
+                <h4>Windows</h4>
+                <i class="fab fa-windows"></i>
+            </a>
+        </div>
+        <div id="desWeb">
+            <a href="">
+                <h4>Linux</h4>
+                <i class="fab fa-linux"></i>
+            </a>
+        </div>
+        <div id="desDes">
+            <a href="">
+                <h4>Mac OS</h4>
+                <i class="fab fa-apple"></i>
+            </a>
+        </div>
+    </div>
+
+    <% include ../partials/footer %>
+</body>
+</html>
